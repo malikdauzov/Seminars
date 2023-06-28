@@ -16,13 +16,19 @@
 // }
 
 
-Console.Write("Введите число:");
-int N = Convert.ToInt32(Console.ReadLine());
-int negativeN = N *(-1); // -N, N = 5, negativeN = 5 *(-1) = -5
+// Console.Write("Введите число:");
+// int N = Convert.ToInt32(Console.ReadLine());
+// int negativeN = N *(-1); // -N, N = 5, negativeN = 5 *(-1) = -5
 
-while(negativeN <=N)
-{
-    Console.WriteLine(negativeN);//negativeN = -2
-    negativeN = negativeN +1;//negativeN ++
-}
+// while(negativeN <=N)
+// {
+//     Console.WriteLine(negativeN);//negativeN = -2
+//     negativeN = negativeN +1;//negativeN ++
+// }
+ 
+ int number = Convert.ToInt32(Console.ReadLine());
+
+ int result = number * number;
+
+ Console.WriteLine(result);
  
