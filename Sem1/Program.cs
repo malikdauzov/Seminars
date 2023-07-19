@@ -26,9 +26,19 @@
 //     negativeN = negativeN +1;//negativeN ++
 // }
  
+/*
+ Console.WriteLine("Please specify number");
  int number = Convert.ToInt32(Console.ReadLine());
-
  int result = number * number;
-
  Console.WriteLine(result);
+ */
  
+// int number1 = Convert.ToInt32(Console.ReadLine());
+// int number2 = Convert.ToInt32(Console.ReadLine());
+// if (number1 == number2 * number2)
+// Console.WriteLine("true");
+// else
+// Console.WriteLine("false");
+
+
+    
